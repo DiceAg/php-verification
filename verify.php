@@ -2,7 +2,7 @@
 <?php
 
 if (count($argv) != 5) {
-    print "useage: php verify.php serverHash serverSeed userSeed nonce \n";
+    print "usage: php verify.php serverHash serverSeed userSeed nonce \n";
     exit;
 }
 
